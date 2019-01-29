@@ -52,6 +52,7 @@ Edit appsettings.json
 	 - Used AutoFac for DI
 	 - Used Xunit and Moq for Unit and Integration Tests.
 	 - To run the application in Debug mode please update the Application Arguments in the Debug Tab of the Project Property.
+	 - I have Skipped the Test When_Configuration_Called_Get_Correct_Values From  RoadStatus.IntegrationTests project B'cose this will expect Values from the appsettings.json. ANd that vaule to be updated in the code. 
 
 
 

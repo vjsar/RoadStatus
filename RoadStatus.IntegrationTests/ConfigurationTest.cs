@@ -18,11 +18,11 @@ namespace RoadStatus.IntegrationTests
             _configuration = new Container().Init().Resolve<IConfiguration>();
 
         }
-        [Fact]
+        [Fact (Skip = "AppId and AppKey should have a valid data in the appsettings.json and then update the test values.")]
         public void When_Configuration_Called_Get_Correct_Values()
         {
-            var expectedConfigurationAppId = "b87b9062";
-            var expectedConfigurationAppKey ="66d8b4f6de3d049a5ed79f4e65333097";
+            var expectedConfigurationAppId = "";
+            var expectedConfigurationAppKey ="";
             var expectedConfigurationUrl = "https://api.tfl.gov.uk/Road/";  
 
             Assert.NotNull(_configuration);
