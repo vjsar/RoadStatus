@@ -41,7 +41,7 @@ Edit appsettings.json
 		- Get to the C:\Deploy folder Location to run the RoadStatus.exe Application
 
 ##Run the Application
-	- Type Roadstatus.exe <RoadName>
+	- Type Roadstatus.exe A24
 
 
 ##Assumptions
